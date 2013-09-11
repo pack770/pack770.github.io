@@ -1,46 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<html lang="en">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+<head>
+<meta charset="utf-8">
+<title>{{ site.name }} | {{ page.title }}</title>
+<link rel="icon" type="image/jpg" href="/images/cub-scout-logo.png">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/main.css">
+</head>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+<body>
 
-    </head>
-    <body>
+<header>
+  <hgroup>
+    <h1><a href="/">{{ site.name }}</a></h1>
+    <h2>Huber Ridge, Westerville, Ohio</h2>
+  </hgroup>
+</header>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
+<nav>
+  <ul>
+    <li><a href="/">News</a></li>
+    <li><a href="/calendar">Calendar</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/meetings">Meeting &amp; Directions</a></li>
+    <li><a href="/about">About Our Pack</a></li>
+  </ul>
+</nav>
 
-                {{ content }}
+<aside>
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
+  <h1>Useful Links</h1>
 
-    </body>
+  <ul>
+    <li><a href="http://www.skcbsa.org/aboutus_shop.php">Simon Kenton Scout Shop</a></li>
+    <li><a href="http://www.scoutstuff.org/">Scout Stuff</a></li>
+    <li><a href="https://my.scouting.org/">My Scouting</a></li>
+  </ul>
+
+  <h1>Affiliates</h1>
+
+  <ul>
+    <li><a href="http://skcbsa.org/district_home.php?district=Arrowhead">Arrowhead District</a></li>
+    <li><a href="http://www.scouting.org/">Boy Scouts of America</a></li>
+    <li><a href="http://www.westerville.k12.oh.us/school_home.aspx?schoolID=17">Huber Ridge Elementary School</a></li>
+    <li><a href="http://skcbsa.org/district_home.php?district=Arrowhead">Simon Kenton Council</a></li>
+    <li><a href="http://westervillecivitan.webs.com/">Westerville Area Civitan Club</a></li>
+    <li><a href="http://www.scout.org/">World Organization of the Scouting Movement</a></li>
+  </ul>
+
+</aside>
+
+<section>
+  {{ content }}
+</section>
+
+<footer>
+</footer>
+
+</body>
+
 </html>
