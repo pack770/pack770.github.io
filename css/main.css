@@ -13,24 +13,33 @@ section.site {
   background-color: #EEEEEE;
   color: #111111;
   margin: 0px auto;
-  width: 72em;
+  width: 74em;
   overflow: auto;
+}
+
+header.site {
+  width: 70em;
+  margin: 2em auto;
 }
 
 section.content {
   float: left;
-  width: 55em;
-  margin: 0.5em;
+  width: 45em;
+  margin: 1em;
 }
 
 aside.site {
   float: right;
-  width: 15em;
-  margin: 0.5em;
+  width: 25em;
+  margin: 1em;
 }
 
 h1 {
   color: rgb(50, 67, 255);
+}
+
+h2 {
+  color: rgb(187, 162, 33);
 }
 
 a {
@@ -41,3 +50,18 @@ a {
 ul {
   list-style-type: none;
 }
+
+p {
+  margin: 0.5em 0em;
+}
+
+header.site h1 {
+  font-size: 5em; 
+  text-align: left;
+}
+
+header.site h2 {
+  font-size: 2em;
+  text-align: right;list-style-type: circle
+}
+
