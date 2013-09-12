@@ -64,9 +64,58 @@ header.site h1 {
 header.site h2 {
   font-size: 2em;
   font-weight: bold;
-  text-align: right;  
+  text-align: right;
+}
+
+nav {
+  margin: 3em 0;
+  clear: both;
+}
+
+nav a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #999;
+  text-shadow: 0px 1px 0px #bbb;
+}
+
+nav a:hover {
+  color: rgb(50, 67, 255);
+}
+
+nav ul {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+  border-left-style: none;
+  border-right-style: none;
+  background-color: #e7e7e7;
+  overflow: auto;
 }
 
 nav li {
-  display: inline;
+  padding: 0.65em 1em;
+  border-style: solid;
+  border-width: 1px;
+  border-left-color: #ddd;
+  border-right-color: #fff;
+  border-top-style: none;
+  border-bottom-style: none;
+  float: left;
+}
+
+nav li:first-child {
+  border-left-style: none;
+}
+
+nav li:last-child {
+  border-right-style: none;
+}
+
+nav li:hover {
+  background-color: rgb(187, 162, 33);
+}
+
+nav li:hover a {
+  color: rgb(50, 67, 255);
 }
