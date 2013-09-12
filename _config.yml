@@ -1,4 +1,5 @@
 name: Cub Scouts Pack 770
+tagline: Huber Ridge, Westerville, Ohio
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "autolink", "smart"]

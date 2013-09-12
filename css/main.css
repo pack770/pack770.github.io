@@ -1,0 +1,41 @@
+* {
+  margin: 0px; 
+  padding: 0px;
+  font: 12pt Verdana, sans-serif;
+}
+
+body {
+  background: #e2ceab url(/images/old-glory.jpg) no-repeat fixed top center;
+  background-size: cover;
+}
+
+section.site {
+  background-color: #EEEEEE;
+  color: #111111;
+  margin: 0px auto;
+  width: 80%;
+  overflow: auto;
+}
+
+section.content {
+  float: left;
+  width: 80%;
+}
+
+aside.site {
+  float: right;
+  width: 20%;
+}
+
+h1 {
+  color: rgb(50, 67, 255);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(50, 67, 255);
+}
+
+ul {
+  list-style-type: none;
+}

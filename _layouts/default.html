@@ -5,20 +5,21 @@
 <meta charset="utf-8">
 <title>{{ site.name }} | {{ page.title }}</title>
 <link rel="icon" type="image/jpg" href="/images/cub-scout-logo.png">
-<link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
 
-<header>
+<section class="site">
+
+<header class="site">
   <hgroup>
-    <h1><a href="/">{{ site.name }}</a></h1>
-    <h2>Huber Ridge, Westerville, Ohio</h2>
+    <h1>{{ site.name }}</h1>
+    <h2>{{ site.tagline }}</h2>
   </hgroup>
 </header>
 
-<nav>
+<nav class="site">
   <ul>
     <li><a href="/">News</a></li>
     <li><a href="/calendar">Calendar</a></li>
@@ -28,7 +29,7 @@
   </ul>
 </nav>
 
-<aside>
+<aside class="site">
 
   <h1>Useful Links</h1>
 
@@ -51,12 +52,14 @@
 
 </aside>
 
-<section>
+<section class="content">
   {{ content }}
 </section>
 
-<footer>
+<footer class="site">
 </footer>
+
+</section>
 
 </body>
 

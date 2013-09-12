@@ -2,7 +2,6 @@
 
 ## To Do
 
-- CSS Styling
 - Google Map with Directions
 - Image Slideshow
 - Migrate Historical Posts
@@ -15,8 +14,11 @@
 - Drive data into Jekyll Config
   - contacts
   - tagline
+- add author to posts
 
 ## Doing
+
+- CSS Styling
 
 ## Done
 
