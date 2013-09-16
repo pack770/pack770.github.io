@@ -14,6 +14,7 @@ section.site {
   color: #111111;
   margin: 0px auto;
   width: 74em;
+  min-height: 100em;
   overflow: auto;
 }
 
@@ -73,17 +74,6 @@ nav {
   clear: both;
 }
 
-nav a {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #999;
-  text-shadow: 0px 1px 0px #bbb;
-}
-
-nav a:hover {
-  color: rgb(50, 67, 255);
-}
-
 nav ul {
   border-style: solid;
   border-width: 1px;
@@ -95,7 +85,7 @@ nav ul {
 }
 
 nav li {
-  padding: 0.65em 1em;
+  padding: 0.65em 1.25em;
   border-style: solid;
   border-width: 1px;
   border-left-color: #ddd;
@@ -109,12 +99,18 @@ nav li:first-child {
   border-left-style: none;
 }
 
-nav li:last-child {
+nav li:last-child {74.09
   border-right-style: none;
 }
 
 nav li:hover {
   background-color: rgb(187, 162, 33);
+}
+
+nav li a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #555;
 }
 
 nav li:hover a {
