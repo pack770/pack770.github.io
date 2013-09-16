@@ -5,15 +5,10 @@ title: News
 
 {% for post in paginator.posts %}
 
-  {% capture p_date %}{{ post.date | date: "%A, %B %d, %Y" }}{% endcapture %}
-  {% capture np_date %}{{ post.next.date | date: "%A, %B %d, %Y" }}{% endcapture %}
-  {% if p_date != np_date %}
-    <h1>{{ p_date }}</h1>
-  {% endif %}
-
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
   <article>
+    <time datetime="{{ post.date | %Y-%m-%d }}" pubdate>{{ post.date | date: "%A, %B %d, %Y" }}</time>
     {{ post.content }}
   </article>
 

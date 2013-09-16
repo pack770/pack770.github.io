@@ -3,6 +3,8 @@ layout: page
 title: Contact Us
 ---
 
+Feel free to contact us with you questions.
+
 # Pack Leaders
 
 For questions regarding events, scheduling, or this website, or if you're interested in signing your boy up for Cub Scouts, please contact the Cubmaster or the Committee Chairman.

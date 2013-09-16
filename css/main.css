@@ -56,6 +56,14 @@ p {
   margin: 0.5em 0em;
 }
 
+strong {
+  font-weight: bolder;
+}
+
+em {
+  font-style: italic;
+}
+
 header.site h1 {
   font-size: 5em; 
   text-align: left;
@@ -70,11 +78,11 @@ header.site h2 {
 }
 
 nav {
-  margin: 3em 0;
+  margin: 3em 0 2em;
   clear: both;
 }
 
-nav ul {
+nav>ul {
   border-style: solid;
   border-width: 1px;
   border-color: #ddd;
@@ -84,7 +92,7 @@ nav ul {
   overflow: auto;
 }
 
-nav li {
+nav>ul>li {
   padding: 0.65em 1.25em;
   border-style: solid;
   border-width: 1px;
@@ -95,24 +103,57 @@ nav li {
   float: left;
 }
 
-nav li:first-child {
+nav>ul>li:first-child {
   border-left-style: none;
 }
 
-nav li:last-child {74.09
+nav>ul>li:last-child {
   border-right-style: none;
 }
 
-nav li:hover {
+nav>ul>li:hover {
   background-color: rgb(187, 162, 33);
 }
 
-nav li a {
+nav>ul>li>a {
   font-size: 1.5em;
   font-weight: bold;
   color: #555;
 }
 
-nav li:hover a {
+nav>ul>li:hover>a {
   color: rgb(50, 67, 255);
+}
+
+section.content>h1 {
+  font-size: 1.4em;
+}
+
+section.content>h1>a {
+  font-size: 1.0em;
+}
+
+article {
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+}
+
+article>h1 {
+  font-size: 1.2em;
+  margin: 1em -0.5em 0.5em;
+  color: #111;
+}
+
+article>ul {
+  margin: 1.0em 2.0em;
+  list-style: disc outside;
+}
+
+article>time {
+  margin-left: -0.5em;
+  font-weight: bolder;
+}
+
+article>iframe {
+  margin: 1em 0em;
 }
