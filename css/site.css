@@ -1,45 +1,6 @@
 ---
 ---
-* {
-  margin: 0; 
-  padding: 0;
-  font: 10pt Verdana, sans-serif;
-}
-
-body {
-  background: #e2ceab url(/images/old-glory.jpg) no-repeat fixed top center;
-  background-size: cover;
-}
-
-h1 {
-  color: rgb(50, 67, 255);
-}
-
-h2 {
-  color: rgb(187, 162, 33);
-}
-
-a {
-  text-decoration: none;
-  color: rgb(50, 67, 255);
-}
-
-ul {
-  list-style-type: none;
-}
-
-p {
-  margin: 0.5em 0em;
-}
-
-strong {
-  font-weight: bolder;
-}
-
-em {
-  font-style: italic;
-}
-
+{% include css/base.css %}
 {% include css/layout.css %}
 {% include css/header.css %}
 {% include css/nav.css %}
