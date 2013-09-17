@@ -66,6 +66,6 @@ em {
   font-style: italic;
 }
 
-{% include header.css %}
-{% include nav.css %}
-{% include content.css %}
+{% include css/header.css %}
+{% include css/nav.css %}
+{% include css/content.css %}
