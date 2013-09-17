@@ -11,32 +11,6 @@ body {
   background-size: cover;
 }
 
-section.site {
-  background-color: #EEEEEE;
-  color: #111111;
-  margin: 0px auto;
-  width: 74em;
-  min-height: 100em;
-  overflow: auto;
-}
-
-header.site {
-  width: 70em;
-  margin: 2em auto;
-}
-
-section.content {
-  float: left;
-  width: 45em;
-  margin: 1em;
-}
-
-aside.site {
-  float: right;
-  width: 25em;
-  margin: 1em;
-}
-
 h1 {
   color: rgb(50, 67, 255);
 }
@@ -66,6 +40,7 @@ em {
   font-style: italic;
 }
 
+{% include css/layout.css %}
 {% include css/header.css %}
 {% include css/nav.css %}
 {% include css/content.css %}
