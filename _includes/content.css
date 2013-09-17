@@ -1,0 +1,32 @@
+section.content>h1 {
+  font-size: 1.4em;
+}
+
+section.content>h1>a {
+  font-size: 1.0em;
+}
+
+article {
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+}
+
+article>h1 {
+  font-size: 1.2em;
+  margin: 1em -0.5em 0.5em;
+  color: #111;
+}
+
+article>ul {
+  margin: 1.0em 2.0em;
+  list-style: disc outside;
+}
+
+article>time {
+  margin-left: -0.5em;
+  font-weight: bolder;
+}
+
+article>iframe {
+  margin: 1em 0em;
+}
