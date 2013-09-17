@@ -6,6 +6,28 @@ section.content>h1>a {
   font-size: 1.0em;
 }
 
+section.content>footer {
+  margin: 4em 0em;
+  text-align: center;
+}
+
+section.content>footer>ul {
+  list-style-type: none;
+}
+
+section.content>footer>ul>li {
+  font-size: 1.2em;
+  display: inline;
+}
+
+section.content>footer>ul>li + li:before{
+  content: " - ";
+}
+
+section.content>footer>ul>li>a {
+  font-size: 1.0em;
+}
+
 article {
   margin-left: 1em;
   margin-bottom: 1.5em;
