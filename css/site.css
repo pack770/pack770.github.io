@@ -5,3 +5,4 @@
 {% include css/header.css %}
 {% include css/nav.css %}
 {% include css/content.css %}
+{% include css/paginator.css %}
