@@ -22,6 +22,10 @@ a {
   color: rgb(50, 67, 255);
 }
 
+a:hover {
+  color: rgb(187, 162, 33);
+}
+
 ul {
   list-style-type: none;
 }

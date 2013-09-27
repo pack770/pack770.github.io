@@ -6,3 +6,4 @@
 {% include css/nav.css %}
 {% include css/content.css %}
 {% include css/paginator.css %}
+{% include css/aside.css %}

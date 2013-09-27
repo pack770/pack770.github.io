@@ -1,0 +1,8 @@
+aside.site>h1 {
+ font-size: 1.4em;
+  color: rgb(187, 162, 33);
+}
+
+aside.site>ul {
+  margin: 0.5em 0.5em 1.0em;
+}
