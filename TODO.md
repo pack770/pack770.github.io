@@ -4,24 +4,16 @@
 
 - Google Map with Directions
 - Image Slideshow
-- Migrate Historical Posts
-- General Information Pages
-  - Pinewood Derby Rules
-  - Camping Guidelines
-  - Minecraft Server?
-- Additional Useful Links
 - Social Media Links
-- Drive data into Jekyll Config
-  - contacts
-  - tagline
-- add author to posts
 
 ## Doing
 
-- CSS Styling
-
 ## Done
 
+- General Information Pages
+  - Pinewood Derby Rules
+  - Camping Guidelines
+- CSS Styling
 - Basic Structure
 - Favicon
 - Calendar
