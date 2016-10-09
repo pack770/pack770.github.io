@@ -1,0 +1,13 @@
+name: Cub Scouts Pack 770
+description: Huber Ridge, Westerville, Ohio
+url: http://guyroyse.com
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sass-converter
+  - kramdown
+markdown: kramdown
+timezone: America/Detroit
+safe: false
+paginate: 5
+paginate_path: "/blog/page:num/"
