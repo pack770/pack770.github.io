@@ -16,9 +16,28 @@
 
 <body>
 
-<main>
-  {{ content }}
-</main>
+  <header>
+    <div class="logo"></div>
+    <div class="banner">
+      <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+      <p class="tagline">{{ site.description }}</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="">Upcoming Events</a></li>
+      <li><a href="">Meeting Times</a></li>
+      <li><a href="">Articles</a></li>
+      <li><a href="">Facebook</a></li>
+      <li><a href="">Contact Us</a></li>
+      <li><a href="">Affiliates</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
 
 </body>
 

@@ -1,0 +1,144 @@
+---
+---
+
+@import 'https://fonts.googleapis.com/css?family=Alice|Cormorant+Garamond';
+
+$base-font: 'Cormorant Garamond', serif;
+$title-font: 'Alice', serif;
+
+$background-color: #eeeeee;
+$background-highlight: #CC853D;
+$text-color: #111111;
+
+$title-color: #d67a1d;
+$subtitle-color: #04104c;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url("/images/old-glory-vertical.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+body {
+  background-color: $background-color;
+  font-family: $base-font;
+  font-size: 20px;
+  color: $text-color;
+  width: 1000px;
+  min-height: calc(100vh - 50px);
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: $title-color;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+
+  font-family: $title-font;
+  display: flex;
+  justify-content: space-between;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 165px;
+    height: 165px;
+    background-image: url("/images/cub-scout-logo.gif");
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .banner {
+    text-align: right;
+    letter-spacing: 3.8px;
+
+  }
+
+  .title {
+    font-size: 80px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .tagline {
+    color: $subtitle-color;
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+    text-align: right;
+    margin-top: -5px;
+  }
+
+}
+
+nav {
+
+  font-family: $title-font;
+  margin: auto;
+  margin-top: -15px;
+  padding-bottom: 20px;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  li {
+    padding-left: 15px;
+    text-transform: uppercase;
+  }
+
+}
+
+section.home {
+
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  text-align: center;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    flex-basis: 30%;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 28px;
+  }
+
+  p {
+    padding-top: 0px;
+  }
+
+  div {
+    padding-top: 75px;
+    font-size: 24px;
+  }
+
+}
