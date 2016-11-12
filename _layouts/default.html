@@ -17,7 +17,7 @@
 <body>
 
   <header>
-    <div class="logo"></div>
+    <a href="/"><div class="logo"></div></a>
     <div class="banner">
       <h1 class="title"><a href="/">{{ site.name }}</a></h1>
       <p class="tagline">{{ site.description }}</p>
@@ -27,7 +27,7 @@
   <nav>
     <ul>
       <li><a href="">Upcoming Events</a></li>
-      <li><a href="">Meeting Times</a></li>
+      <li><a href="meetings.html">Meetings</a></li>
       <li><a href="">Articles</a></li>
       <li><a href="">Facebook</a></li>
       <li><a href="">Contact Us</a></li>
@@ -36,7 +36,9 @@
   </nav>
 
   <main>
-    {{ content }}
+    <section class="{{ page.class}}">
+      {{ content }}
+    </section>
   </main>
 
 </body>

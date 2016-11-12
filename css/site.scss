@@ -109,11 +109,27 @@ nav {
 
 }
 
-section.home {
+section {
 
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
+
+  h1 {
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  p {
+    padding-top: 0px;
+    padding-bottom: 12px;
+  }
+
+}
+
+section.home {
+
   text-align: center;
 
   ul {
@@ -130,10 +146,6 @@ section.home {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 28px;
-  }
-
-  p {
-    padding-top: 0px;
   }
 
   div {
