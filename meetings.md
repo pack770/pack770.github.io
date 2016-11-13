@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Meetings
-class: meetings
+html_id: meetings
 ---
 
 # Den Meetings
@@ -9,8 +9,9 @@ class: meetings
 Den meetings are the heart of the Cub Scout program. In the context of the den, scouts learn and grow through
 activities with their peers guided by den leaders.
 
-Den meetings normally are held every Monday at Huber Ridge Elementary and start at 6:30pm. If school is not in
-session then the meeting is normally cancelled. Check the calendar for details.
+Den meetings normally are held every Monday at
+[Huber Ridge Elementary](http://www.westerville.k12.oh.us/school_home.aspx?schoolID=17) and start at 6:30pm. If school
+is not in session then the meeting is normally cancelled. Check the [calendar](calendar.html) for details.
 
 On occasion, Den leaders will decided to have a particular meeting at another location if the activity is not
 appropriate for a school setting. Examples might include learning fire-building skills, touring the police department,

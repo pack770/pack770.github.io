@@ -12,6 +12,11 @@
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/site.css">
 
+<script type="text/javascript" src="js/vendor/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/vendor/lodash.min.js"></script>
+<script type="text/javascript" src="js/vendor/moment.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
 </head>
 
 <body>
@@ -26,8 +31,8 @@
 
   <nav>
     <ul>
-      <li><a href="">Upcoming Events</a></li>
       <li><a href="meetings.html">Meetings</a></li>
+      <li><a href="calendar.html">Calendar</a></li>
       <li><a href="">Articles</a></li>
       <li><a href="">Facebook</a></li>
       <li><a href="">Contact Us</a></li>
@@ -36,7 +41,7 @@
   </nav>
 
   <main>
-    <section class="{{ page.class}}">
+    <section id="{{ page.html_id }}">
       {{ content }}
     </section>
   </main>
