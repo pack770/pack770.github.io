@@ -21,17 +21,18 @@ or earning their whittling chip.
 
 Many packs have regular pack meetings. We do not. Instead we have monthly pack activities that are not on a fixed
 schedule. Sometimes these are at Huber Ridge Elementary and sometimes they are not. These activities include things
-such as awards ceremonies, holiday celebrations, and camping trips.
+such as awards ceremonies, holiday celebrations, and camping trips. Check the [calendar](calendar.html) for times and
+locations.
 
 # Summer Meetings
 
 There are no den meetings during the summer. Instead, we engage in pack activities of which we try to schedule at
-least three per month. Typical activities are camping trips, museum tours, and hiking and biking. Check the calendar
-for details.
+least three per month. Typical activities are camping trips, museum tours, and hiking and biking. Check the
+[calendar](calendar.html) for details.
 
 # Leadership Meetings
 
 The pack committee is in charge of setting the direction of the pack. They meet once a month on Monday after the den
 meetings. The meeting starts at 7:30pm. Meetings are typically held on the first Monday after the first Thursday of
 every month but are sometimes moved to other Mondays. The dates for pack committee meetings can be found on the
-calendar.
+[calendar](calendar.html).
