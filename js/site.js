@@ -88,7 +88,8 @@ Site.Calendar = (function() {
       }
 
       function renderEvent(event) {
-        var body = event.link ? '<a href="' + event.link + '">' + event.eventName + '</a>' : event.eventName;
+        var eventName = event.eventName.replace(/\n/g, '<br/>');
+        var body = event.link ? '<a href="' + event.link + '">' + eventName + '</a>' : eventName;
         return '<li>' + body + '</li>'
       }
 
